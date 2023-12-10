@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="regform">
+        <h1>Registration Form</h1>
+    </div>
+    <div class="main">
+
+        <form method="POST">
+            <div id="name">
+                <h2 class="name">Name </h2>
+                <input class="firstname" type="text" name="first_name"><br>
+                <label class="firstlabel">first name</label>
+                <input class="lastname" type="text" name="last_name"><br>
+                <label class="lastlabel">last name</label>
+            </div>
+            <h2 class="name"> UserName </h2>
+            <input class="company" type="text" name="company">
+            <h2 class="name"> Password </h2>
+            <input class="company" type="password" name="company">
+            <h2 class="name"> Confirm Password </h2>
+            <input class="company" type="password" name="company">
+            <h2 class="name"> Email</h2>
+            <input class="email" type="email" name="email">
+            <h2 class="name"> Phone</h2>
+            <input class="number" type="text" name="phone">
+            <label class="phone-number">Phone Number</label>
+
+
+            <h2 class="name">Course</h2>
+            <select class="option" name="subject">
+                <option disabled="disabled" selected="selected">--Choose option--</option>
+                <option>C</option>
+                <option>C++</option>
+                <option>Java</option>
+                <option>Python</option>
+                <option>R</option>
+            </select>
+            <center><button type="submit"><h1>Register</h1></button></center>
+
+
+        </form>
+    </div>
+</body>
+
+</html>
